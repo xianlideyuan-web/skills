@@ -1,0 +1,57 @@
+{
+  "skillLibName": "帝御",
+  "version": "v1.07",
+  "updated": "2026-10-05",
+  "description": "帝御决策心法技能库。入口调度器（轻量）→ 按需加载子技能，禁止一次性读全库。",
+  "entry": {
+    "router": "02_调度器/帝御-调度器-router.md",
+    "usageGuide": "00_使用说明.md",
+    "mainFramework": "01_帝御主框架/帝御-SKILL-v1.07.md",
+    "experience": "经验沉淀.md",
+    "changelog": "CHANGELOG.md"
+  },
+  "modules": {
+    "心法层": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "一、心性五诀·人 / 二、明知琢道·天 / 三、凝本存资·地" },
+    "主见层": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "四、独见守己·御主" },
+    "御势层": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "五、御势·孙子兵法策略推演" },
+    "御物总纲": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "总纲法则·御物（无不可用）" },
+    "万法归宗": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "六、万法归宗·经籍总纲" },
+    "众观·多视角": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "七、多视角分析·众观" },
+    "判据卡": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "八、判据卡·可检验" },
+    "决策加固": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "九、决策加固" },
+    "AI调用规范": { "path": "01_帝御主框架/帝御-SKILL-v1.07.md", "section": "十、AI调用规范与伦理边界" }
+  },
+  "skills": [
+    { "name": "道德经", "file": "道德经.md", "category": "内炼之经", "summary": "以弱对强、以退为进、以静制动", "focus": "让 + 御势" },
+    { "name": "大学", "file": "大学.md", "category": "内炼之经", "summary": "次第与定止，治目标漂移", "focus": "温 + 明知琢道" },
+    { "name": "中庸", "file": "中庸.md", "category": "内炼之经", "summary": "执两用中、慎独，动态平衡", "focus": "让 + 独见守己" },
+    { "name": "传习录", "file": "传习录.md", "category": "内炼之经", "summary": "知行合一，拆空想", "focus": "明知琢道 + 见" },
+    { "name": "庄子", "file": "庄子.md", "category": "内炼之经", "summary": "松绑学，回自我主轴", "focus": "独见守己 + 良" },
+    { "name": "素书", "file": "素书.md", "category": "内炼之经", "summary": "五德一体，修身与统御同源", "focus": "心法（五德）+ 统御" },
+    { "name": "止学", "file": "止学.md", "category": "内炼之经", "summary": "知止，止于当止", "focus": "俭/让/温 + 守" },
+    { "name": "鹖冠子", "file": "鹖冠子.md", "category": "内炼之经", "summary": "道法并用，观大势定进退", "focus": "明知（道）+ 御势" },
+    { "name": "墨子", "file": "墨子.md", "category": "内炼之经", "summary": "兼爱非攻，组织管理", "focus": "良/俭 + 实务" },
+    { "name": "荀子", "file": "荀子.md", "category": "内炼之经", "summary": "劝学积善，识践知旋", "focus": "明知 + 良/俭" },
+    { "name": "三十六计", "file": "三十六计.md", "category": "御势之经", "summary": "僵局破局招法库", "focus": "御势（谋攻细节）" },
+    { "name": "六韬", "file": "六韬.md", "category": "御势之经", "summary": "将略学，带队伍全局统筹", "focus": "御势（将略）+ 恭" },
+    { "name": "三略", "file": "三略.md", "category": "御势之经", "summary": "统御收心，德威并施", "focus": "御势（统御）+ 恭" },
+    { "name": "吴子", "file": "吴子.md", "category": "御势之经", "summary": "固本出击次序标尺", "focus": "凝本存资 + 御势" },
+    { "name": "司马法", "file": "司马法.md", "category": "御势之经", "summary": "双向风险护栏", "focus": "御势（风险）+ 恒" },
+    { "name": "韩非子", "file": "韩非子.md", "category": "权衡之经", "summary": "谁在获益透视镜，识裹挟", "focus": "独见守己 + 格" },
+    { "name": "鬼谷子", "file": "鬼谷子.md", "category": "权衡之经", "summary": "人心观察学，谈判识人", "focus": "见 + 恭" },
+    { "name": "反经", "file": "反经.md", "category": "权衡之经", "summary": "权变识人，众谋独断", "focus": "辨/见 + 权变" },
+    { "name": "人物志", "file": "人物志.md", "category": "权衡之经", "summary": "九征八观，识人鉴人", "focus": "见 + 恭（察微）" },
+    { "name": "博弈思维", "file": "博弈思维.md", "category": "权衡之经", "summary": "策略互动，纳什均衡", "focus": "御势 + 格·观界" },
+    { "name": "周易", "file": "周易.md", "category": "权衡之经", "summary": "变易时位，趋吉避凶", "focus": "明断（时位）+ 让（时中）" },
+    { "name": "吕氏春秋", "file": "吕氏春秋.md", "category": "权衡之经", "summary": "同类相召，审类辨向", "focus": "主见（辨）+ 审类" },
+    { "name": "管子", "file": "管子.md", "category": "实务之经", "summary": "资源调度，积储固本", "focus": "凝 + 恒" },
+    { "name": "商君书", "file": "商君书.md", "category": "实务之经", "summary": "目标聚焦执行", "focus": "俭 + 凝" },
+    { "name": "帝范", "file": "帝范.md", "category": "实务之经", "summary": "统御君道，带队立威", "focus": "御势（统御）+ 恭" },
+    { "name": "大道至拙", "file": "大道至拙.md", "category": "实务之经", "summary": "结硬寨打呆仗，拙诚领导", "focus": "凝/恒 + 御势" }
+  ],
+  "usageRule": {
+    "defaultMode": "轻量模式：先读本manifest + router，按路由只加载判定命中的2-4个子技能文件",
+    "fullMode": "仅用户明确要求全体系/深度复盘/体系校验时，才加载主框架全文+全部子技能",
+    "skillsDir": "03_典籍子技能/"
+  }
+}
