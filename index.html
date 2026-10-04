@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skills 技能库集合</title>
+<meta name="description" content="多个平级技能库的公开集合：帝御技能库（内修心、外御势、中立己、御万物决策心法体系）等。供 AI 与人类浏览读取。">
+<style>
+  :root{--bg:#f6f7f9;--card:#fff;--ink:#1f2328;--sub:#57606a;--accent:#1f6feb;--line:#d8dee4;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6;padding:24px 16px;}
+  .wrap{max-width:860px;margin:0 auto;}
+  h1{font-size:26px;margin-bottom:6px;}
+  .sub{color:var(--sub);font-size:14px;margin-bottom:24px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin-bottom:16px;}
+  h2{font-size:18px;margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+  .tag{font-size:12px;background:#eef1f4;color:var(--sub);border-radius:20px;padding:2px 10px;font-weight:400;}
+  .desc{color:var(--sub);font-size:14px;margin-bottom:12px;}
+  ul{list-style:none;}
+  li{padding:5px 0;border-bottom:1px dashed var(--line);font-size:14px;}
+  li:last-child{border-bottom:none;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .path{color:var(--sub);font-size:12px;margin-left:8px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
+  .note{font-size:13px;color:var(--sub);background:#fff8e5;border:1px solid #eeda8a;border-radius:8px;padding:10px 14px;margin-top:8px;}
+  footer{color:var(--sub);font-size:12px;text-align:center;margin-top:28px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Skills 技能库集合</h1>
+  <p class="sub">多个平级技能库的公开仓库 · 本页自动与 GitHub 同步 · 全网可见</p>
+
+  <div class="card">
+    <h2>帝御技能库 <span class="tag">v1.05</span></h2>
+    <p class="desc">「内修心、外御势、中立己、御万物」决策心法体系——融合《孙子兵法》与十四部经典（道德经/大学/中庸/传习录/庄子/三十六计/六韬/三略/吴子/司马法/韩非子/鬼谷子/管子/商君书）精华。用于人生抉择、项目取舍、竞争博弈、游戏对局分析、资源规划、心态修炼。</p>
+    <ul>
+      <li><a href="帝御技能库/00_使用说明.md">00_使用说明.md</a><span class="path">给 AI / 使用者的快速指南</span></li>
+      <li><a href="帝御技能库/01_帝御主框架/帝御-SKILL-v1.05.md">01_帝御主框架/帝御-SKILL-v1.05.md ★</a><span class="path">核心框架（必读，含全部体系）</span></li>
+      <li><a href="帝御技能库/02_调度器/帝御-调度器-router.md">02_调度器/帝御-调度器-router.md</a><span class="path">路由规则：需求 → 层/诀/典</span></li>
+      <li><a href="帝御技能库/03_典籍子技能/">03_典籍子技能/（目录）</a><span class="path">14部典籍独立子技能</span></li>
+      <li><a href="帝御技能库/04_历史版本/">04_历史版本/（目录）</a><span class="path">版本归档</span></li>
+    </ul>
+    <div class="note">💡 给 AI：只需读取「01_帝御主框架/帝御-SKILL-v1.05.md」即可使用帝御体系分析问题；需要细化时再读调度器与对应典籍子技能。</div>
+  </div>
+
+  <div class="card">
+    <h2>未来技能库 <span class="tag">预留</span></h2>
+    <p class="desc">本仓库支持多个平级技能库共存。新增时在仓库根目录新建同名文件夹（统一结构：00_使用说明.md + 01_主框架/ + 02_调度器/ + 03_子技能/ + 04_历史版本/），并在此登记。</p>
+    <p class="note">本门户页会随仓库更新自动同步（GitHub Pages 每次 push 自动重建）。</p>
+  </div>
+
+  <footer>Skills Library · GitHub 公开仓库 · <a href="https://github.com/xianlideyuan-web/skills">xianlideyuan-web/skills</a></footer>
+</div>
+</body>
+</html>
