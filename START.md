@@ -2,6 +2,7 @@
 
 > 本文件是**帝御体系的完整可用入口**：读完本文件即可用帝御心法分析问题（路由规则、核心精要、26部典籍速查都在这里）；需要深挖某部典籍时，再按下方链接按需抓取该子技能正文。
 > 仓库：github.com/xianlideyuan-web/skills · Pages：xianlideyuan-web.github.io/skills/（如需完整版/历史版本/变更日志，见文末链接）
+> **访问提示**：若 raw 链接抓取失败（部分 AI 的浏览工具对 raw.githubusercontent.com 不稳定），把链接中 `raw.githubusercontent.com/xianlideyuan-web/skills/main/` 换成 `cdn.jsdelivr.net/gh/xianlideyuan-web/skills@main/`（jsDelivr CDN，国内可访问、中文路径自动编码、无需预编码）；二者内容完全相同。
 
 ## 〇、使用规则（必守）
 
@@ -111,6 +112,13 @@
 （《孙子兵法》为御势层主体，内嵌于主框架御势层，无独立文件。）
 
 ## 八、完整版链接（按需）
+**jsDelivr 镜像（raw 抓取失败时用这套，中文路径无需编码）：**
+- START.md：https://cdn.jsdelivr.net/gh/xianlideyuan-web/skills@main/START.md
+- ROUTER.md：https://cdn.jsdelivr.net/gh/xianlideyuan-web/skills@main/ROUTER.md
+- manifest.json：https://cdn.jsdelivr.net/gh/xianlideyuan-web/skills@main/manifest.json
+- 子技能通用规则：https://cdn.jsdelivr.net/gh/xianlideyuan-web/skills@main/帝御技能库/03_典籍子技能/<典名>.md（<典名>换成 道德经/中庸/…，无需编码）
+
+**raw 直链：**
 
 - 调度器全文（router）：https://raw.githubusercontent.com/xianlideyuan-web/skills/main/ROUTER.md
 - 技能清单元数据：https://raw.githubusercontent.com/xianlideyuan-web/skills/main/manifest.json
