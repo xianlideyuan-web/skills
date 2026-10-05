@@ -10,8 +10,11 @@
 
 ## 核心文件直链（raw，已预编码，复制即用）
 
+> 若 raw 链接 404：把链接里的中文路径改成预编码形式即可；或直接用本文件的零编码链接（ROUTER.md / manifest.json / START.md）。
+
+
 - **manifest.json（技能清单元数据）**：https://raw.githubusercontent.com/xianlideyuan-web/skills/main/manifest.json
-- **router.md（轻量调度器·入口）**：https://raw.githubusercontent.com/xianlideyuan-web/skills/main/%E5%B8%9D%E5%BE%A1%E6%8A%80%E8%83%BD%E5%BA%93/02_%E8%B0%83%E5%BA%A6%E5%99%A8/%E5%B8%9D%E5%BE%A1-%E8%B0%83%E5%BA%A6%E5%99%A8-router.md
+- **router.md（轻量调度器·入口）**：https://raw.githubusercontent.com/xianlideyuan-web/skills/main/ROUTER.md
 - **00_使用说明.md**：https://raw.githubusercontent.com/xianlideyuan-web/skills/main/%E5%B8%9D%E5%BE%A1%E6%8A%80%E8%83%BD%E5%BA%93/00_%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md
 - **主框架 v1.07（核心）**：https://raw.githubusercontent.com/xianlideyuan-web/skills/main/%E5%B8%9D%E5%BE%A1%E6%8A%80%E8%83%BD%E5%BA%93/01_%E5%B8%9D%E5%BE%A1%E4%B8%BB%E6%A1%86%E6%9E%B6/%E5%B8%9D%E5%BE%A1-SKILL-v1.07.md
 - **经验沉淀.md**：https://raw.githubusercontent.com/xianlideyuan-web/skills/main/%E5%B8%9D%E5%BE%A1%E6%8A%80%E8%83%BD%E5%BA%93/%E7%BB%8F%E9%AA%8C%E6%B2%89%E6%B7%80.md
