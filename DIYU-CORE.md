@@ -159,7 +159,7 @@
 | 决策结果已落地要复盘 | 复盘认证（v1.08 已内置本文件，无需加载） | 本文件「复盘认证」节 |
 | 分析一个人的目标结构/优先级/程度/套壳 | 内核五·心界（已内置本文件，无需加载） | 本文件「内核五·心界」节 |
 
-**完整版主框架**：https://cdn.jsdelivr.net/gh/xianlideyuan-web/skills@main/帝御技能库/01_帝御主框架/帝御-SKILL-v1.08.md
+**完整版主框架**：https://cdn.jsdelivr.net/gh/xianlideyuan-web/skills@main/帝御技能库/01_帝御主框架/帝御-SKILL-v1.09.md
 **完整版入口 START.md**（含26部典籍速查表）：https://cdn.jsdelivr.net/gh/xianlideyuan-web/skills@main/START.md
 
 ---
