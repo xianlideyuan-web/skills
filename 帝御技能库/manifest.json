@@ -1,55 +1,59 @@
 {
   "skillLibName": "帝御",
-  "version": "v1.08",
+  "version": "v1.09",
   "updated": "2026-10-19",
   "description": "帝御决策心法技能库。入口调度器（轻量）→ 按需加载子技能，禁止一次性读全库。",
   "entry": {
     "router": "02_调度器/帝御-调度器-router.md",
     "usageGuide": "00_使用说明.md",
-    "mainFramework": "01_帝御主框架/帝御-SKILL-v1.08.md",
+    "mainFramework": "01_帝御主框架/帝御-SKILL-v1.09.md",
     "experience": "经验沉淀.md",
     "changelog": "CHANGELOG.md"
   },
   "modules": {
     "心法层": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "一、心性五诀·人 / 二、明知琢道·天（二·补 受削寻根） / 三、凝本存资·地（三·补 凝争相成）"
     },
     "主见层": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "四、独见守己·御主"
     },
     "御势层": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "五、御势·孙子兵法策略推演"
     },
     "御物总纲": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "总纲法则·御物（无不可用）"
     },
     "万法归宗": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "六、万法归宗·经籍总纲"
     },
     "众观·多视角": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "七、多视角分析·众观"
     },
     "判据卡": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "八、判据卡·可检验"
     },
     "决策加固": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "九、决策加固"
     },
     "AI调用规范": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "十、AI调用规范与伦理边界"
     },
     "复盘认证": {
-      "path": "01_帝御主框架/帝御-SKILL-v1.08.md",
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
       "section": "十一、复盘认证 · 决策后闭环"
+    },
+    "心界": {
+      "path": "01_帝御主框架/帝御-SKILL-v1.09.md",
+      "section": "十二、心界 · 心界层级框架"
     }
   },
   "skills": [
